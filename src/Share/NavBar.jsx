@@ -12,7 +12,7 @@ const NavBar = () => {
       label: "Home",
     },
     {
-      to: "#",
+      to: "/properties",
       label: "Properties",
     },
     {
@@ -34,8 +34,8 @@ const NavBar = () => {
   }
   return (
     <>
-      <header className="py-7 bg-[#005555] z-10 fixed w-full left-0 top-8 ">
-        <div className="container">
+      <header className=" z-10 fixed w-full left-0 top-8 ">
+        <div className="container bg-[#005555] py-6 rounded-sm ">
           <div className="flex justify-between items-center text-white">
             <div>
               <Link className="text-2xl font-bold">
@@ -53,16 +53,16 @@ const NavBar = () => {
               </ul>
             </div>
             {/* button  */}
-            <div>
-                <Link className="px-5 py-4 bg-gray-100 text-black rounded hidden lg:inline-block">
+      
+                {/* <Link className="px-5 py-4 bg-gray-100 text-black rounded hidden lg:inline-block">
                 Get Started
-                </Link>
+                </Link> */}
 
-                <button className="lg:hidden block" onClick={handleNavbar}>
+     
+          <button className="lg:hidden block" onClick={handleNavbar}>
                         <HiBars3 className="text-3xl"/>
                 </button>
             </div>
-          </div>
         </div>
       </header>
       {/* for mobile tablet devices  */}

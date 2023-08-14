@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name":"Our Properties",
+        "image":"https://i.ibb.co/2qW1tpX/new.png",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus."
+    },
+    {
+        "id":2,
+        "name":"Property for Sale",
+        "image":"https://i.ibb.co/gF1jgKg/office-building.png",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus."
+    },
+    {
+        "id":3,
+        "name":"Real Estate Agent",
+        "image":"https://i.ibb.co/2nrhBnp/seller.png",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus."
+    },
+    {
+        "id":4,
+        "name":"House for Sale",
+        "image":"https://i.ibb.co/smD0Y2V/for-sale.png",
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, accusamus."
+    }
+]

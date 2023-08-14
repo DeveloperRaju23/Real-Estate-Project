@@ -4,6 +4,8 @@ import {
 import Main from "../Layout/Main";
 import Home from "../Pages/HomePages/Home";
 import About from "../Pages/AboutPages/About";
+import Properties from "../Pages/PropertiesPages/Properties";
+import PropertiesDetails from "../Pages/HomePages/PropertiesDetails";
 
   const router = createBrowserRouter([
     {
@@ -18,6 +20,14 @@ import About from "../Pages/AboutPages/About";
             path:"/about",
             element:<About/>
         },
+        {
+          path: "/properties",
+          element:<Properties/>
+        },
+        {
+          path: "/properties/:id",
+          element:<PropertiesDetails/>
+        }
       ]
     },
   ]);
