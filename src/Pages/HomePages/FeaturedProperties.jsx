@@ -16,7 +16,7 @@ const FeaturedProperties = () => {
     .then((data) => setProducts(data))
   },[])
   return (
-    <div className='container'>
+    <div className='container pb-16'>
         <div className='flex justify-between mt-12 mb-12 flex-col md:flex-row'>
           <h2 className='lg:text-4xl text-2xl text-center md:text-end font-semibold '> Featured Properties</h2>
           <button className='search_btn mt-3 md:mt-0'>view all Properties</button>
